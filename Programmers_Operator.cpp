@@ -76,3 +76,25 @@ long long solution(string expression)
     }
     return answer;
 }
+
+#include <iostream>
+#include <map>
+#include <algorithm>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+vector<int> solution(vector<string> gems) 
+{
+	vector<int> answer;
+	vector<int> gems_temp = gems;
+	gems_temp.erase(unique(gems_temp.begin(), gems_temp.end()), gems_temp.end());
+	int count = gems_temp.size();
+	return answer;
+}
+
+int main()
+{
+	return 0;
+}
