@@ -37,12 +37,14 @@ int main()
 		{
 			int now = q.front();
 			q.pop();
-			for (int i = 0; i<3; i++) {
+			for (int i = 0; i<3; i++) 
+			{
 				int next = now;
 				if (i == 0) next -= 1;
 				else if (i == 1) next += 1;
 				else next *= 2;
-				if (0 <= next && next <= 500000 && !visited[ans % 2][next]) {
+				if (0 <= next && next <= 500000 && !visited[ans % 2][next]) 
+				{
 					visited[ans % 2][next] = true; 
 					q.push(next);
 				}
