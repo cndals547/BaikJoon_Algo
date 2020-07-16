@@ -9,7 +9,6 @@ using namespace std;
 int N, M;
 char map[50][50];
 bool Visit[50][50][1 << 6];
-
 pair<int, int> Start;
 vector<pair<int, int>> End;
 
