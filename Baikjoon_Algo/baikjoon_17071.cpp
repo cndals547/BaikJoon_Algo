@@ -6,7 +6,7 @@
 using namespace std;
 
 int N, K;
-bool visited[2][500001] = { false };
+bool visited[2][500001] = { false, };
 
 void input()
 {
