@@ -31,6 +31,7 @@ vector<int> solution(vector<string> gems)
 	{
 		gem_list.insert(gems[i]);
 	}
+	
 	int gem_count = gem_list.size();
 	for (int i = 0; i < gems.size(); i++)
 	{
@@ -53,6 +54,7 @@ vector<int> solution(vector<string> gems)
 			gems_vec.clear();
 		}
 	}
+	
 	sort(gem_leng.begin(), gem_leng.end(), comp);
 	answer.push_back(gem_leng[0].first + 1);
 	answer.push_back(gem_leng[0].second + 1);
