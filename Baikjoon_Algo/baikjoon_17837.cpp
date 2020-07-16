@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 
-#define endl "\n"
 #define MAX 12
 #define CHESS_MAX 10
 using namespace std;
