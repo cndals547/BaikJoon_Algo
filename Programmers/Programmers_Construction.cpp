@@ -68,10 +68,12 @@ int solution(vector<vector<int>> board)
 			}
 		}
 	}
+	
 	for (int i = 0; i < 4; i++)
 	{
 		answer = min(answer, map[N - 1][N - 1][i]);
 	}
+	
     answer -= 500;
 	return answer;
 }
