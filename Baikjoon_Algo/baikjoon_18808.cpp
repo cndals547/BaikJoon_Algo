@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 struct sticker
 {
 	int row;
