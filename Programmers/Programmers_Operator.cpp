@@ -78,14 +78,6 @@ long long solution(string expression)
     return answer;
 }
 
-#include <iostream>
-#include <map>
-#include <algorithm>
-#include <vector>
-#include <string>
-
-using namespace std;
-
 vector<int> solution(vector<string> gems) 
 {
 	vector<int> answer;
