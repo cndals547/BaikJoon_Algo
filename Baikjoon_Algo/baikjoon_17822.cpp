@@ -6,7 +6,6 @@
 #include<queue>
 using namespace std;
 
-
 void check_sum();
 
 struct Turn_Circle_Info
