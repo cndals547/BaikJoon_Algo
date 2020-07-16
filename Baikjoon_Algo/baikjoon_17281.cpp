@@ -22,7 +22,6 @@ void input()
 		}
 	}
 }
-
 void Play_game()
 {
 	int score = 0;
