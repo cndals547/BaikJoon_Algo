@@ -12,6 +12,7 @@ long long calculate(vector<string> Case, string expression)
     vector<string> change_expression;
     int flag = 0;
     string temp = "";
+	
     for(int i = 0; i < expression.size(); i++)
     {
         if(expression[i] == '-' || expression[i] == '+' || expression[i] == '*')
