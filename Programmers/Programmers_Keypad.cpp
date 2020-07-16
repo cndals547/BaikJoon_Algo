@@ -22,9 +22,11 @@ string solution(vector<int> numbers, string hand)
             index++;
         }
     }
+	
     key_map['*'] = {3,0};
     key_map['0'] = {3,1};
     key_map['#'] = {3,2};
+		
     for(int i = 0; i < numbers.size(); i++)
     {
         if(key_map[numbers[i]+'0'].second == 0)
