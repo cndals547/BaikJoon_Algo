@@ -5,7 +5,8 @@
 
 using namespace std;
 
-int N, arr[10001], answer;
+int N, arr[10001];
+int answer;
 
 void solution()
 {
