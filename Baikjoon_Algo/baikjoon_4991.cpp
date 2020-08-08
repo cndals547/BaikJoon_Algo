@@ -12,7 +12,6 @@ int visited[21][21][1 << 11];
 int map[21][21];
 int n, m;
 
-
 void initialize()
 {
 	memset(map, 0, sizeof(map));
